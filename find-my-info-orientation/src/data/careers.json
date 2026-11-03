@@ -1,0 +1,873 @@
+{
+  "name": "L'Informatique et ses Intersections",
+  "description": "Découvrez les nombreux domaines de l'informatique et ses connexions avec d'autres disciplines comme la santé, la finance, l'art et plus encore.",
+  "emoji": "🌳",
+  "children": [
+    {
+      "id": "development",
+      "name": "Développement Logiciel",
+      "description": "Création de logiciels, applications et systèmes. C'est le cœur de l'informatique où la créativité rencontre la logique.",
+      "emoji": "💻",
+      "color": "#6bb6ff",
+      "tags": ["Création", "Logique", "Innovation", "Code"],
+      "skills": ["Programmation", "Algorithmes", "Architecture logicielle", "Debugging"],
+      "salary": {"france": {"junior": "35-45k€", "senior": "50-80k€", "expert": "80k€+"}},
+      "resources": [
+        {"type": "course", "title": "Apprendre le développement web", "url": "https://developer.mozilla.org/fr/docs/Learn", "source": "MDN"},
+        {"type": "book", "title": "Clean Code", "author": "Robert C. Martin", "url": "https://www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"},
+        {"type": "youtube", "title": "Grafikart - Développement", "url": "https://www.youtube.com/c/Grafikarttv"},
+        {"type": "platform", "title": "OpenClassrooms - Développeur", "url": "https://openclassrooms.com/fr/paths/518-developpeur-dapplication-python"}
+      ],
+      "connectedDomains": ["Design", "Entrepreneuriat", "Finance"],
+      "children": [
+        {
+          "id": "web-development",
+          "name": "Développement Web",
+          "description": "Création de sites et applications web. Du simple site vitrine aux plateformes complexes.",
+          "emoji": "🌐",
+          "color": "#87ceeb",
+          "tags": ["Frontend", "Backend", "Fullstack", "Web"],
+          "skills": ["HTML/CSS", "JavaScript", "React", "Node.js", "Express", "Django", "Flask"],
+          "salary": {"france": {"junior": "35-42k€", "senior": "45-70k€"}},
+          "resources": [
+            {"type": "course", "title": "The Odin Project", "url": "https://www.theodinproject.com/"},
+            {"type": "interactive", "title": "freeCodeCamp", "url": "https://www.freecodecamp.org/"},
+            {"type": "youtube", "title": "Traversy Media", "url": "https://www.youtube.com/c/TraversyMedia"}
+          ],
+          "children": [
+            {
+              "id": "frontend",
+              "name": "Frontend",
+              "description": "Développement de l'interface utilisateur. Ce que l'utilisateur voit et avec lequel il interagit.",
+              "emoji": "✨",
+              "color": "#4ade80",
+              "tags": ["UI", "UX", "Design", "Interactive"],
+              "skills": ["HTML5", "CSS3", "JavaScript (ES6+)", "React", "Vue.js", "Angular", "TypeScript", "Tailwind CSS"],
+              "salary": {"france": {"junior": "35-40k€", "senior": "45-65k€"}},
+              "resources": [
+                {"type": "docs", "title": "React Documentation", "url": "https://react.dev/"},
+                {"type": "course", "title": "Scrimba - React", "url": "https://scrimba.com/learn/learnreact"},
+                {"type": "book", "title": "You Don't Know JS", "url": "https://github.com/getify/You-Dont-Know-JS"}
+              ],
+              "children": [
+                {
+                  "id": "react-developer",
+                  "name": "Développeur React",
+                  "description": "Spécialiste du framework React pour créer des interfaces dynamiques et réactives.",
+                  "emoji": "⚛️",
+                  "color": "#61dafb",
+                  "tags": ["SPA", "Components", "State Management"],
+                  "skills": ["React", "Hooks", "Context API", "Redux", "Next.js", "React Router"],
+                  "salary": {"france": {"junior": "38-45k€", "senior": "50-75k€"}},
+                  "resources": [
+                    {"type": "course", "title": "React - The Complete Guide", "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"},
+                    {"type": "community", "title": "r/reactjs", "url": "https://www.reddit.com/r/reactjs/"}
+                  ],
+                  "schools": ["EPITECH", "42", "Wild Code School", "OpenClassrooms"]
+                },
+                {
+                  "id": "ui-ux-developer",
+                  "name": "Développeur UI/UX",
+                  "description": "Développeur qui se concentre sur l'expérience utilisateur et l'interface, souvent en collaboration avec des designers.",
+                  "emoji": "🎨",
+                  "color": "#f59e0b",
+                  "tags": ["Design", "Accessibilité", "Prototypage"],
+                  "skills": ["Figma", "Adobe XD", "CSS Animations", "Responsive Design", "Accessibility"],
+                  "salary": {"france": {"junior": "35-45k€", "senior": "50-70k€"}},
+                  "resources": [
+                    {"type": "tool", "title": "Figma", "url": "https://www.figma.com/"},
+                    {"type": "course", "title": "UI/UX Design Specialization", "url": "https://www.coursera.org/specializations/ui-ux-design"}
+                  ],
+                  "connectedDomains": ["Graphic Design", "Psychology"]
+                }
+              ]
+            },
+            {
+              "id": "backend",
+              "name": "Backend",
+              "description": "Développement de la logique côté serveur, des bases de données et des API. Le moteur invisible des applications.",
+              "emoji": "🗄️",
+              "color": "#ff6b6b",
+              "tags": ["Serveur", "API", "Base de données", "Performance"],
+              "skills": ["Node.js", "Python", "Java", "C#", "Go", "Ruby", "SQL", "NoSQL", "REST", "GraphQL"],
+              "salary": {"france": {"junior": "40-48k€", "senior": "55-80k€"}},
+              "resources": [
+                {"type": "course", "title": "Backend Master Class", "url": "https://www.udemy.com/course/nodejs-master-class/"},
+                {"type": "docs", "title": "Express.js Guide", "url": "https://expressjs.com/"}
+              ],
+              "children": [
+                {
+                  "id": "api-developer",
+                  "name": "Développeur API",
+                  "description": "Spécialiste de la création et de la maintenance des interfaces de programmation.",
+                  "emoji": "🔗",
+                  "color": "#a855f7",
+                  "tags": ["REST", "GraphQL", "Microservices"],
+                  "skills": ["API Design", "Authentication", "Rate Limiting", "Swagger/OpenAPI"],
+                  "salary": {"france": {"junior": "42-50k€", "senior": "60-85k€"}},
+                  "resources": [
+                    {"type": "book", "title": "API Design Patterns", "url": "https://www.apidesignpatterns.com/"}
+                  ]
+                },
+                {
+                  "id": "devops",
+                  "name": "DevOps",
+                  "description": "Pont entre développement et operations, automatisant le déploiement et la maintenance.",
+                  "emoji": "🤖",
+                  "color": "#ff8c42",
+                  "tags": ["CI/CD", "Cloud", "Automatisation", "Infrastructure"],
+                  "skills": ["Docker", "Kubernetes", "AWS", "Azure", "GCP", "Terraform", "Ansible", "Jenkins"],
+                  "salary": {"france": {"junior": "45-55k€", "senior": "65-90k€"}},
+                  "resources": [
+                    {"type": "course", "title": "DevOps Roadmap", "url": "https://roadmap.sh/devops"},
+                    {"type": "platform", "title": "KodeKloud", "url": "https://kodekloud.com/"}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fullstack",
+              "name": "Fullstack",
+              "description": "Maîtrise à la fois du frontend et du backend. Polyvalent et très recherché.",
+              "emoji": "🏗️",
+              "color": "#ffd700",
+              "tags": ["Polyvalent", "Frontend", "Backend", "Full Cycle"],
+              "skills": ["JavaScript", "TypeScript", "React", "Node.js", "Express", "Databases"],
+              "salary": {"france": {"junior": "40-50k€", "senior": "60-90k€"}},
+              "resources": [
+                {"type": "course", "title": "The Complete Web Developer", "url": "https://www.udemy.com/course/the-web-developer-bootcamp/"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobile-development",
+          "name": "Développement Mobile",
+          "description": "Création d'applications pour smartphones et tablettes. iOS, Android ou cross-platform.",
+          "emoji": "📱",
+          "color": "#06b6d4",
+          "tags": ["iOS", "Android", "Cross-platform", "Apps"],
+          "skills": ["Swift", "Kotlin", "React Native", "Flutter", "Dart", "Java", "Objective-C"],
+          "salary": {"france": {"junior": "38-45k€", "senior": "50-75k€"}},
+          "resources": [
+            {"type": "docs", "title": "Apple Developer", "url": "https://developer.apple.com/"},
+            {"type": "docs", "title": "Android Developers", "url": "https://developer.android.com/"},
+            {"type": "course", "title": "Flutter Crash Course", "url": "https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/"}
+          ],
+          "children": [
+            {
+              "id": "ios-developer",
+              "name": "Développeur iOS",
+              "description": "Spécialiste des applications pour l'écosystème Apple.",
+              "emoji": "🍎",
+              "color": "#a8e6cf",
+              "skills": ["Swift", "SwiftUI", "Core Data", "Combine", "Xcode"],
+              "salary": {"france": {"junior": "40-48k€", "senior": "55-80k€"}}
+            },
+            {
+              "id": "android-developer",
+              "name": "Développeur Android",
+              "description": "Spécialiste des applications pour Android.",
+              "emoji": "🤖",
+              "color": "#34a853",
+              "skills": ["Kotlin", "Java", "Jetpack Compose", "Android Studio"],
+              "salary": {"france": {"junior": "38-45k€", "senior": "50-70k€"}}
+            },
+            {
+              "id": "cross-platform",
+              "name": "Cross-Platform",
+              "description": "Développement d'applications pour plusieurs plateformes avec un seul codebase.",
+              "emoji": "🔄",
+              "color": "#673ab7",
+              "skills": ["React Native", "Flutter", "Xamarin", "Capacitor"],
+              "salary": {"france": {"junior": "38-45k€", "senior": "50-75k€"}}
+            }
+          ]
+        },
+        {
+          "id": "game-development",
+          "name": "Développement de Jeux Vidéo",
+          "description": "Création de jeux vidéo, des mécaniques de jeu aux graphismes en passant par le son.",
+          "emoji": "🎮",
+          "color": "#ff5722",
+          "tags": ["Jeux", "3D", "2D", "Game Design", "Moteurs de jeu"],
+          "skills": ["Unity", "Unreal Engine", "C#", "C++", "Godot", "Blender", "OpenGL", "WebGL"],
+          "salary": {"france": {"junior": "30-40k€", "senior": "45-70k€"}},
+          "resources": [
+            {"type": "course", "title": "Game Development with Unity", "url": "https://www.udemy.com/course/unitycourse/"},
+            {"type": "platform", "title": "Unity Learn", "url": "https://learn.unity.com/"},
+            {"type": "community", "title": "r/gamedev", "url": "https://www.reddit.com/r/gamedev/"}
+          ],
+          "children": [
+            {
+              "id": "game-designer",
+              "name": "Game Designer",
+              "description": "Conçoit les mécaniques, les niveaux et l'expérience globale du jeu.",
+              "emoji": "🎲",
+              "color": "#ff9800",
+              "skills": ["Game Design Document", "Level Design", "Narrative Design", "Balancing"],
+              "connectedDomains": ["Art", "Storytelling", "Psychology"]
+            },
+            {
+              "id": "3d-artist",
+              "name": "Artiste 3D",
+              "description": "Crée les modèles 3D, textures et animations pour les jeux.",
+              "emoji": "🎨",
+              "color": "#9c27b0",
+              "skills": ["Blender", "Maya", "3ds Max", "ZBrush", "Substance Painter"],
+              "connectedDomains": ["Art", "Cinéma"]
+            }
+          ]
+        },
+        {
+          "id": "embedded-systems",
+          "name": "Systèmes Embarqués",
+          "description": "Développement de logiciels pour des appareils spécialisés comme les IoT, robots, voitures, etc.",
+          "emoji": "🤖",
+          "color": "#795548",
+          "tags": ["IoT", "Robotique", "Hardware", "Low-level"],
+          "skills": ["C", "C++", "Rust", "Python", "Microcontrollers", "RTOS", "ARM", "FPGA"],
+          "salary": {"france": {"junior": "38-45k€", "senior": "50-75k€"}},
+          "resources": [
+            {"type": "course", "title": "Embedded Systems with Arduino", "url": "https://www.udemy.com/course/arduino-step-by-step/"}
+          ],
+          "connectedDomains": ["Électronique", "Robotique", "Automobile"]
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data & Intelligence Artificielle",
+      "description": "Transformation des données en informations exploitables et création de systèmes intelligents.",
+      "emoji": "📊",
+      "color": "#a855f7",
+      "tags": ["Données", "IA", "Machine Learning", "Analyse"],
+      "skills": ["Python", "SQL", "R", "Pandas", "NumPy", "TensorFlow", "PyTorch", "SciKit-Learn"],
+      "salary": {"france": {"junior": "40-50k€", "senior": "60-90k€", "expert": "90k€+"}},
+      "resources": [
+        {"type": "course", "title": "Machine Learning A-Z", "url": "https://www.udemy.com/course/machinelearning/"},
+        {"type": "platform", "title": "Kaggle", "url": "https://www.kaggle.com/"},
+        {"type": "book", "title": "Hands-On Machine Learning", "author": "Aurélien Géron"}
+      ],
+      "connectedDomains": ["Statistiques", "Mathématiques", "Médecine", "Finance"],
+      "children": [
+        {
+          "id": "data-science",
+          "name": "Data Science",
+          "description": "Extraction de connaissances et d'insights à partir de données structurées ou non.",
+          "emoji": "🔬",
+          "color": "#e91e63",
+          "tags": ["Analyse", "Visualisation", "Prédiction", "Modélisation"],
+          "skills": ["Python", "R", "SQL", "Pandas", "Matplotlib", "Seaborn", "Jupyter", "Tableau"],
+          "salary": {"france": {"junior": "40-48k€", "senior": "55-80k€"}},
+          "resources": [
+            {"type": "course", "title": "Data Science MicroMasters", "url": "https://www.edx.org/micromasters/uc-san-diegox-data-science"},
+            {"type": "tool", "title": "Jupyter Notebooks", "url": "https://jupyter.org/"}
+          ],
+          "children": [
+            {
+              "id": "data-analyst",
+              "name": "Data Analyst",
+              "description": "Analyse les données pour aider à la prise de décision.",
+              "emoji": "📈",
+              "color": "#ff5722",
+              "skills": ["Excel", "SQL", "Python", "Power BI", "Tableau", "Google Analytics"],
+              "salary": {"france": {"junior": "35-42k€", "senior": "45-60k€"}},
+              "connectedDomains": ["Marketing", "Business", "Finance"]
+            },
+            {
+              "id": "data-scientist",
+              "name": "Data Scientist",
+              "description": "Conçoit des modèles prédictifs et des algorithmes de machine learning.",
+              "emoji": "🧪",
+              "color": "#9c27b0",
+              "skills": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Big Data"],
+              "salary": {"france": {"junior": "45-55k€", "senior": "65-90k€"}},
+              "connectedDomains": ["Médecine", "Finance", "Recherche"]
+            }
+          ]
+        },
+        {
+          "id": "data-engineering",
+          "name": "Data Engineering",
+          "description": "Conception et maintenance des infrastructures de données.",
+          "emoji": "🛠️",
+          "color": "#009688",
+          "tags": ["Pipeline", "ETL", "Big Data", "Cloud"],
+          "skills": ["SQL", "Python", "Hadoop", "Spark", "Airflow", "Kafka", "AWS/GCP/Azure"],
+          "salary": {"france": {"junior": "45-55k€", "senior": "60-85k€"}},
+          "resources": [
+            {"type": "course", "title": "Data Engineering Nanodegree", "url": "https://www.udacity.com/course/data-engineer-nanodegree--nd027"}
+          ]
+        },
+        {
+          "id": "artificial-intelligence",
+          "name": "Intelligence Artificielle",
+          "description": "Développement de systèmes capables de simuler l'intelligence humaine.",
+          "emoji": "🤖",
+          "color": "#ff6f00",
+          "tags": ["ML", "DL", "NLP", "Computer Vision", "Robotique"],
+          "skills": ["Python", "TensorFlow", "PyTorch", "Keras", "OpenCV", "NLTK", "spaCy"],
+          "salary": {"france": {"junior": "45-55k€", "senior": "70-100k€"}},
+          "resources": [
+            {"type": "course", "title": "Deep Learning Specialization", "url": "https://www.coursera.org/specializations/deep-learning"},
+            {"type": "research", "title": "arXiv - AI", "url": "https://arxiv.org/list/cs.AI/recent"}
+          ],
+          "children": [
+            {
+              "id": "machine-learning-engineer",
+              "name": "Machine Learning Engineer",
+              "description": "Déploie des modèles de ML en production.",
+              "emoji": "⚙️",
+              "color": "#795548",
+              "skills": ["MLOps", "Docker", "Kubernetes", "FastAPI", "Flask"],
+              "salary": {"france": {"junior": "50-60k€", "senior": "70-100k€"}}
+            },
+            {
+              "id": "nlp-specialist",
+              "name": "Spécialiste NLP",
+              "description": "Travaille sur le traitement automatique du langage naturel.",
+              "emoji": "💬",
+              "color": "#607d8b",
+              "skills": ["NLTK", "spaCy", "BERT", "Transformers", "Hugging Face"],
+              "connectedDomains": ["Linguistique", "Philosophie"]
+            },
+            {
+              "id": "computer-vision",
+              "name": "Computer Vision",
+              "description": "Développement d'algorithmes pour interpréter des images et vidéos.",
+              "emoji": "👁️",
+              "color": "#00bcd4",
+              "skills": ["OpenCV", "TensorFlow", "PyTorch", "YOLO", "CNN"],
+              "connectedDomains": ["Médecine", "Automobile", "Sécurité"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersécurité",
+      "description": "Protection des systèmes, réseaux et données contre les cyberattaques.",
+      "emoji": "🔒",
+      "color": "#f44336",
+      "tags": ["Sécurité", "Hacking", "Protection", "Audit"],
+      "skills": ["Python", "Bash", "Networking", "Cryptography", "Ethical Hacking", "SIEM", "Firewalls"],
+      "salary": {"france": {"junior": "40-50k€", "senior": "60-90k€", "expert": "90k€+"}},
+      "resources": [
+        {"type": "course", "title": "The Complete Cyber Security Course", "url": "https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/"},
+        {"type": "platform", "title": "TryHackMe", "url": "https://tryhackme.com/"},
+        {"type": "platform", "title": "Hack The Box", "url": "https://www.hackthebox.com/"},
+        {"type": "certification", "title": "CEH", "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"}
+      ],
+      "connectedDomains": ["Droit", "Criminalistique", "Politique"],
+      "children": [
+        {
+          "id": "ethical-hacking",
+          "name": "Hacking Éthique / Pentest",
+          "description": "Teste les systèmes pour trouver et corriger les vulnérabilités avant qu'elles ne soient exploitées.",
+          "emoji": "🕵️",
+          "color": "#ff9800",
+          "tags": ["Pentest", "Red Team", "Vulnerabilities", "Exploits"],
+          "skills": ["Metasploit", "Burp Suite", "Nmap", "Wireshark", "Kali Linux", "OWASP Top 10"],
+          "salary": {"france": {"junior": "45-55k€", "senior": "65-95k€"}},
+          "resources": [
+            {"type": "book", "title": "The Web Application Hacker's Handbook", "author": "Dafydd Stuttard, Marcus Pinto"},
+            {"type": "certification", "title": "OSCP", "url": "https://www.offensive-security.com/pwk-oscp/"}
+          ]
+        },
+        {
+          "id": "security-architecture",
+          "name": "Architecture de Sécurité",
+          "description": "Conception de systèmes sécurisés dès la base.",
+          "emoji": "🏗️",
+          "color": "#673ab7",
+          "tags": ["Design", "Cloud Security", "Zero Trust"],
+          "skills": ["Security by Design", "IAM", "PKI", "Encryption", "Compliance"],
+          "salary": {"france": {"junior": "50-60k€", "senior": "70-100k€"}},
+          "resources": [
+            {"type": "framework", "title": "NIST Cybersecurity Framework", "url": "https://www.nist.gov/cyberframework"}
+          ]
+        },
+        {
+          "id": "soc-analyst",
+          "name": "Analyste SOC",
+          "description": "Surveille et répond aux incidents de sécurité en temps réel.",
+          "emoji": "🚨",
+          "color": "#ff5722",
+          "tags": ["Monitoring", "Incident Response", "Threat Intelligence"],
+          "skills": ["SIEM", "Log Analysis", "Threat Hunting", "Forensics"],
+          "salary": {"france": {"junior": "38-45k€", "senior": "50-70k€"}},
+          "resources": [
+            {"type": "tool", "title": "Splunk", "url": "https://www.splunk.com/"},
+            {"type": "certification", "title": "CISSP", "url": "https://www.isc2.org/CISSP"}
+          ]
+        },
+        {
+          "id": "cryptography",
+          "name": "Cryptographie",
+          "description": "Sécurisation des communications et des données grâce à des algorithmes mathématiques.",
+          "emoji": "🔐",
+          "color": "#795548",
+          "tags": ["Chiffrement", "Blockchain", "Mathématiques", "Protocoles"],
+          "skills": ["Cryptography", "Blockchain", "Smart Contracts", "Zero-Knowledge Proofs"],
+          "salary": {"france": {"junior": "45-55k€", "senior": "65-90k€"}},
+          "connectedDomains": ["Mathématiques", "Finance", "Droit"],
+          "resources": [
+            {"type": "course", "title": "Cryptography I", "url": "https://www.coursera.org/learn/crypto"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-infrastructure",
+      "name": "Infrastructure IT & Réseaux",
+      "description": "Gestion des systèmes, réseaux et services qui font fonctionner les organisations.",
+      "emoji": "🌐",
+      "color": "#4caf50",
+      "tags": ["Réseaux", "Cloud", "Administration", "Maintenance"],
+      "skills": ["Linux", "Windows Server", "Networking", "DNS", "DHCP", "Firewalls", "Load Balancing"],
+      "salary": {"france": {"junior": "30-40k€", "senior": "45-65k€"}},
+      "resources": [
+        {"type": "course", "title": "Computer Networking: A Top-Down Approach", "author": "Kurose & Ross"},
+        {"type": "certification", "title": "CCNA", "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html"}
+      ],
+      "children": [
+        {
+          "id": "system-administration",
+          "name": "Administration Système",
+          "description": "Gestion et maintenance des serveurs et des systèmes d'exploitation.",
+          "emoji": "🖥️",
+          "color": "#607d8b",
+          "tags": ["Linux", "Windows", "Scripting", "Automatisation"],
+          "skills": ["Bash", "PowerShell", "Ansible", "Puppet", "Chef", "Docker"],
+          "salary": {"france": {"junior": "30-38k€", "senior": "40-60k€"}},
+          "resources": [
+            {"type": "book", "title": "The Linux Command Line", "url": "https://linuxcommand.org/tlcl.php"}
+          ]
+        },
+        {
+          "id": "network-engineering",
+          "name": "Ingénierie Réseau",
+          "description": "Conception, déploiement et gestion des infrastructures réseau.",
+          "emoji": "🌉",
+          "color": "#00bcd4",
+          "tags": ["Cisco", "Juniper", "Routing", "Switching"],
+          "skills": ["CCNA", "CCNP", "IPv4/IPv6", "VPN", "QoS", "VoIP"],
+          "salary": {"france": {"junior": "35-42k€", "senior": "50-70k€"}},
+          "resources": [
+            {"type": "lab", "title": "Cisco Packet Tracer", "url": "https://www.netacad.com/courses/packet-tracer"}
+          ]
+        },
+        {
+          "id": "cloud-computing",
+          "name": "Cloud Computing",
+          "description": "Utilisation de services informatiques à la demande via Internet.",
+          "emoji": "☁️",
+          "color": "#2196f3",
+          "tags": ["AWS", "Azure", "GCP", "Serverless", "Containers"],
+          "skills": ["AWS", "Azure", "GCP", "Terraform", "Kubernetes", "Serverless"],
+          "salary": {"france": {"junior": "40-50k€", "senior": "60-90k€"}},
+          "resources": [
+            {"type": "course", "title": "AWS Certified Cloud Practitioner", "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"},
+            {"type": "platform", "title": "A Cloud Guru", "url": "https://acloudguru.com/"}
+          ],
+          "children": [
+            {
+              "id": "cloud-architect",
+              "name": "Cloud Architect",
+              "description": "Conçoit des solutions cloud scalables et sécurisées.",
+              "emoji": "🏛️",
+              "color": "#673ab7",
+              "skills": ["Multi-Cloud", "Cost Optimization", "Security", "High Availability"],
+              "salary": {"france": {"junior": "50-60k€", "senior": "75-100k€"}}
+            },
+            {
+              "id": "devops-engineer",
+              "name": "DevOps Engineer",
+              "description": "Automatise et optimise les processus de développement et de déploiement.",
+              "emoji": "🔄",
+              "color": "#ff5722",
+              "skills": ["CI/CD", "Infrastructure as Code", "Monitoring", "Logging"],
+              "salary": {"france": {"junior": "45-55k€", "senior": "65-90k€"}}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-it",
+      "name": "Informatique & Santé",
+      "description": "Application de l'informatique au domaine médical : dossiers patients, imagerie, recherche, etc.",
+      "emoji": "🏥",
+      "color": "#009688",
+      "tags": ["Médecine", "Santé", "E-santé", "Biomédical"],
+      "skills": ["DICOM", "HL7", "FHIR", "Python", "R", "Machine Learning", "Data Analysis"],
+      "salary": {"france": {"junior": "38-45k€", "senior": "50-75k€"}},
+      "resources": [
+        {"type": "organization", "title": "HIMSS", "url": "https://www.himss.org/"},
+        {"type": "course", "title": "Health Informatics", "url": "https://www.coursera.org/learn/health-informatics"}
+      ],
+      "connectedDomains": ["Médecine", "Biologie", "Pharmacie", "Recherche Médicale"],
+      "children": [
+        {
+          "id": "medical-software",
+          "name": "Logiciels Médicaux",
+          "description": "Développement de logiciels pour les professionnels de santé.",
+          "emoji": "💊",
+          "color": "#4caf50",
+          "tags": ["Dossier Patient", "Prescription", "Gestion Hospitalière"],
+          "skills": ["DICOM", "HL7", "FHIR", "Interoperability", "Regulatory Compliance"],
+          "salary": {"france": {"junior": "40-48k€", "senior": "55-75k€"}},
+          "resources": [
+            {"type": "standard", "title": "HL7 FHIR", "url": "https://hl7.org/fhir/"}
+          ]
+        },
+        {
+          "id": "medical-imaging",
+          "name": "Imagerie Médicale",
+          "description": "Traitement et analyse d'images médicales (radiographies, IRM, scanners).",
+          "emoji": "📷",
+          "color": "#9c27b0",
+          "tags": ["Radiologie", "IA", "Diagnostic", "3D Reconstruction"],
+          "skills": ["DICOM", "OpenCV", "Python", "Machine Learning", "Computer Vision"],
+          "salary": {"france": {"junior": "40-50k€", "senior": "60-85k€"}},
+          "connectedDomains": ["Radiologie", "Neurosciences", "Chirurgie"],
+          "resources": [
+            {"type": "library", "title": "ITK", "url": "https://itk.org/"},
+            {"type": "library", "title": "SimpleITK", "url": "https://simpleitk.org/"}
+          ]
+        },
+        {
+          "id": "bioinformatics",
+          "name": "Bioinformatique",
+          "description": "Analyse de données biologiques et génomiques.",
+          "emoji": "🧬",
+          "color": "#673ab7",
+          "tags": ["Génomique", "Séquençage", "Protéomique", "Biologie Computationnelle"],
+          "skills": ["Python", "R", "Perl", "BioPython", "BLAST", "Nextflow"],
+          "salary": {"france": {"junior": "38-45k€", "senior": "50-70k€"}},
+          "connectedDomains": ["Biologie", "Génétique", "Recherche", "Pharmacie"],
+          "resources": [
+            {"type": "database", "title": "NCBI", "url": "https://www.ncbi.nlm.nih.gov/"},
+            {"type": "course", "title": "Bioinformatics on Coursera", "url": "https://www.coursera.org/learn/bioinformatics"}
+          ]
+        },
+        {
+          "id": "telemedicine",
+          "name": "Télémédecine",
+          "description": "Technologies pour la médecine à distance.",
+          "emoji": "💻",
+          "color": "#00bcd4",
+          "tags": ["Téléconsultation", "Monitoring", "IoT Médical", "Réglementation"],
+          "skills": ["Telehealth Platforms", "Video Streaming", "Data Security", "HIPAA/GDPR"],
+          "salary": {"france": {"junior": "35-45k€", "senior": "50-70k€"}},
+          "connectedDomains": ["Médecine Générale", "Psychologie", "Droit de la Santé"]
+        },
+        {
+          "id": "medical-ai",
+          "name": "IA en Santé",
+          "description": "Application de l'intelligence artificielle au diagnostic, traitement et recherche médicale.",
+          "emoji": "🤖",
+          "color": "#ff9800",
+          "tags": ["Diagnostic Assisté", "Drug Discovery", "Prédiction", "Personnalisation"],
+          "skills": ["Deep Learning", "Computer Vision", "NLP", "Medical Data", "Ethics"],
+          "salary": {"france": {"junior": "45-55k€", "senior": "70-100k€"}},
+          "connectedDomains": ["Médecine", "Recherche Clinique", "Pharmacie", "Éthique"],
+          "resources": [
+            {"type": "research", "title": "Nature - AI in Medicine", "url": "https://www.nature.com/subjects/artificial-intelligence"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance-it",
+      "name": "Informatique & Finance",
+      "description": "Technologies pour les marchés financiers, la banque et les assurances.",
+      "emoji": "💰",
+      "color": "#ff9800",
+      "tags": ["Finance", "Banque", "Trading", "Blockchain", "Fintech"],
+      "skills": ["Python", "Java", "C++", "R", "SQL", "Quantitative Finance", "Algorithmic Trading"],
+      "salary": {"france": {"junior": "45-60k€", "senior": "70-120k€", "expert": "120k€+"}},
+      "resources": [
+        {"type": "course", "title": "Algorithmic Trading", "url": "https://www.udemy.com/course/algorithmic-trading-and-quantitative-analysis/"},
+        {"type": "platform", "title": "QuantConnect", "url": "https://www.quantconnect.com/"}
+      ],
+      "connectedDomains": ["Finance", "Économie", "Mathématiques", "Droit"],
+      "children": [
+        {
+          "id": "quantitative-finance",
+          "name": "Finance Quantitative",
+          "description": "Utilisation de modèles mathématiques pour les marchés financiers.",
+          "emoji": "📉",
+          "color": "#e91e63",
+          "tags": ["Quant", "Trading", "Risk Management", "Derivatives"],
+          "skills": ["Python", "R", "C++", "Stochastic Calculus", "Time Series", "Monte Carlo"],
+          "salary": {"france": {"junior": "50-70k€", "senior": "80-150k€"}},
+          "resources": [
+            {"type": "book", "title": "Options, Futures, and Other Derivatives", "author": "John C. Hull"}
+          ]
+        },
+        {
+          "id": "fintech",
+          "name": "Fintech",
+          "description": "Innovation technologique dans les services financiers.",
+          "emoji": "💳",
+          "color": "#00bcd4",
+          "tags": ["Payments", "Neobank", "Crowdfunding", "Insurtech"],
+          "skills": ["Blockchain", "Smart Contracts", "APIs", "RegTech", "Open Banking"],
+          "salary": {"france": {"junior": "45-55k€", "senior": "65-90k€"}},
+          "resources": [
+            {"type": "news", "title": "Finextra", "url": "https://www.finextra.com/"}
+          ]
+        },
+        {
+          "id": "blockchain",
+          "name": "Blockchain & Crypto",
+          "description": "Technologies de registre distribué et cryptomonnaies.",
+          "emoji": "⛓️",
+          "color": "#9c27b0",
+          "tags": ["Bitcoin", "Ethereum", "DeFi", "NFT", "Smart Contracts"],
+          "skills": ["Solidity", "Rust", "Go", "Web3.js", "Ethers.js", "IPFS", "Consensus Algorithms"],
+          "salary": {"france": {"junior": "50-65k€", "senior": "75-120k€"}},
+          "resources": [
+            {"type": "docs", "title": "Ethereum Documentation", "url": "https://ethereum.org/developers/docs/"},
+            {"type": "course", "title": "Blockchain Specialization", "url": "https://www.coursera.org/specializations/blockchain"}
+          ],
+          "children": [
+            {
+              "id": "smart-contract-developer",
+              "name": "Développeur Smart Contracts",
+              "description": "Écrit des contrats intelligents pour les blockchains comme Ethereum.",
+              "emoji": "📜",
+              "color": "#673ab7",
+              "skills": ["Solidity", "Hardhat", "Truffle", "OpenZeppelin", "Chainlink"],
+              "salary": {"france": {"junior": "55-70k€", "senior": "80-130k€"}}
+            },
+            {
+              "id": "blockchain-architect",
+              "name": "Architecte Blockchain",
+              "description": "Conçoit des solutions blockchain pour les entreprises.",
+              "emoji": "🏗️",
+              "color": "#ff5722",
+              "skills": ["Hyperledger", "Ethereum", "Corda", "Polkadot", "Consensus Mechanisms"],
+              "salary": {"france": {"junior": "60-75k€", "senior": "90-140k€"}}
+            }
+          ]
+        },
+        {
+          "id": "algorithmic-trading",
+          "name": "Trading Algorithmique",
+          "description": "Développement d'algorithmes pour le trading automatique.",
+          "emoji": "📈",
+          "color": "#4caf50",
+          "tags": ["HFT", "Quantitative Strategies", "Backtesting", "Market Making"],
+          "skills": ["Python", "C++", "Java", "Pandas", "NumPy", "Backtrader", "Zipline"],
+          "salary": {"france": {"junior": "60-80k€", "senior": "100-150k€"}},
+          "resources": [
+            {"type": "library", "title": "Backtrader", "url": "https://www.backtrader.com/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative-it",
+      "name": "Informatique Créative",
+      "description": "Utilisation de l'informatique pour l'art, le design, la musique et la créativité.",
+      "emoji": "🎨",
+      "color": "#e91e63",
+      "tags": ["Art", "Design", "Musique", "Animation", "Créativité"],
+      "skills": ["Blender", "Adobe Creative Suite", "Unity", "Unreal Engine", "Processing", "TouchDesigner"],
+      "salary": {"france": {"junior": "30-40k€", "senior": "45-70k€"}},
+      "resources": [
+        {"type": "platform", "title": "Creative Applications", "url": "https://www.creativeapplications.net/"},
+        {"type": "community", "title": "r/GenerativeArt", "url": "https://www.reddit.com/r/GenerativeArt/"}
+      ],
+      "connectedDomains": ["Art", "Design", "Musique", "Cinéma", "Architecture"],
+      "children": [
+        {
+          "id": "digital-art",
+          "name": "Art Numérique",
+          "description": "Création d'œuvres d'art à l'aide d'outils numériques.",
+          "emoji": "🖌️",
+          "color": "#9c27b0",
+          "tags": ["Illustration", "Peinture Numérique", "Concept Art", "NFT Art"],
+          "skills": ["Photoshop", "Procreate", "Blender", "Substance Painter", "Wacom"],
+          "salary": {"france": {"junior": "25-35k€", "senior": "40-60k€"}},
+          "connectedDomains": ["Art Traditionnel", "Galerie d'Art"]
+        },
+        {
+          "id": "generative-art",
+          "name": "Art Génératif",
+          "description": "Création d'art à l'aide d'algorithmes et de code.",
+          "emoji": "🎭",
+          "color": "#673ab7",
+          "tags": ["Algorithmes", "IA", "NFT", "Creative Coding"],
+          "skills": ["Processing", "p5.js", "Three.js", "Python", "TouchDesigner", "Houdini"],
+          "salary": {"france": {"junior": "30-40k€", "senior": "50-75k€"}},
+          "resources": [
+            {"type": "book", "title": "Generative Art", "author": "Matt Pearson"},
+            {"type": "course", "title": "Creative Coding", "url": "https://www.kadenze.com/courses/creative-coding"}
+          ]
+        },
+        {
+          "id": "music-technology",
+          "name": "Technologie Musicale",
+          "description": "Utilisation de la technologie pour créer, produire et performer de la musique.",
+          "emoji": "🎵",
+          "color": "#009688",
+          "tags": ["MAO", "Synthèse Sonore", "Audio Processing", "Live Coding"],
+          "skills": ["Ableton Live", "FL Studio", "Logic Pro", "Max/MSP", "SuperCollider", "Python"],
+          "salary": {"france": {"junior": "25-35k€", "senior": "40-60k€"}},
+          "connectedDomains": ["Musique", "Production Audio", "DJing"],
+          "resources": [
+            {"type": "platform", "title": "Ableton Learning", "url": "https://learningmusic.ableton.com/"}
+          ]
+        },
+        {
+          "id": "game-art",
+          "name": "Art pour Jeux Vidéo",
+          "description": "Création d'assets visuels pour les jeux vidéo.",
+          "emoji": "🎮",
+          "color": "#ff5722",
+          "tags": ["3D Modeling", "Texturing", "Animation", "Pixel Art", "UI/UX"],
+          "skills": ["Blender", "Maya", "ZBrush", "Substance Painter", "Photoshop", "Spine"],
+          "salary": {"france": {"junior": "30-40k€", "senior": "45-70k€"}},
+          "connectedDomains": ["Jeux Vidéo", "Cinéma d'Animation"]
+        },
+        {
+          "id": "vr-ar",
+          "name": "Réalité Virtuelle & Augmentée",
+          "description": "Création d'expériences immersives en VR et AR.",
+          "emoji": "🕶️",
+          "color": "#2196f3",
+          "tags": ["VR", "AR", "3D", "Interactivité", "XR"],
+          "skills": ["Unity", "Unreal Engine", "WebXR", "Three.js", "A-Frame", "OpenVR"],
+          "salary": {"france": {"junior": "35-45k€", "senior": "50-75k€"}},
+          "resources": [
+            {"type": "docs", "title": "WebXR Device API", "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API"}
+          ],
+          "connectedDomains": ["Jeux Vidéo", "Cinéma", "Architecture", "Médecine"]
+        }
+      ]
+    },
+    {
+      "id": "education-it",
+      "name": "Informatique & Éducation",
+      "description": "Utilisation de l'informatique pour l'enseignement et l'apprentissage.",
+      "emoji": "🎓",
+      "color": "#4caf50",
+      "tags": ["EdTech", "E-learning", "Pédagogie", "Formation"],
+      "skills": ["LMS", "Instructional Design", "Educational Technology", "Gamification"],
+      "salary": {"france": {"junior": "30-40k€", "senior": "45-65k€"}},
+      "resources": [
+        {"type": "platform", "title": "Coursera for Business", "url": "https://www.coursera.org/business"},
+        {"type": "platform", "title": "edX", "url": "https://www.edx.org/"}
+      ],
+      "connectedDomains": ["Éducation", "Pédagogie", "Psychologie", "Formation Professionnelle"],
+      "children": [
+        {
+          "id": "e-learning",
+          "name": "E-learning",
+          "description": "Création de contenus éducatifs en ligne.",
+          "emoji": "📚",
+          "color": "#8bc34a",
+          "tags": ["Cours en Ligne", "MOOC", "Vidéos Pédagogiques", "Quizz"],
+          "skills": ["Articulate", "Captivate", "Moodle", "Canvas", "LMS Administration"],
+          "salary": {"france": {"junior": "30-38k€", "senior": "40-55k€"}},
+          "resources": [
+            {"type": "tool", "title": "Moodle", "url": "https://moodle.org/"}
+          ]
+        },
+        {
+          "id": "edtech",
+          "name": "EdTech",
+          "description": "Développement de technologies pour améliorer l'éducation.",
+          "emoji": "💡",
+          "color": "#ff9800",
+          "tags": ["Apprentissage Adaptatif", "IA", "Analytique", "Collaboration"],
+          "skills": ["JavaScript", "Python", "Data Analysis", "UX Design", "Gamification"],
+          "salary": {"france": {"junior": "35-45k€", "senior": "50-70k€"}},
+          "resources": [
+            {"type": "news", "title": "EdSurge", "url": "https://www.edsurge.com/"}
+          ]
+        },
+        {
+          "id": "instructional-design",
+          "name": "Ingénierie Pédagogique",
+          "description": "Conception de programmes éducatifs efficaces.",
+          "emoji": "📝",
+          "color": "#607d8b",
+          "tags": ["Conception Pédagogique", "Évaluation", "Curriculum", "Accessibilité"],
+          "skills": ["Instructional Design Models", "Needs Analysis", "Assessment", "ADDIE Model"],
+          "salary": {"france": {"junior": "30-40k€", "senior": "45-60k€"}},
+          "connectedDomains": ["Pédagogie", "Psychologie", "Neurosciences"]
+        }
+      ]
+    },
+    {
+      "id": "other-it",
+      "name": "Autres Domaines IT",
+      "description": "D'autres domaines importants de l'informatique.",
+      "emoji": "🌟",
+      "color": "#9e9e9e",
+      "children": [
+        {
+          "id": "product-management",
+          "name": "Product Management",
+          "description": "Gestion du cycle de vie d'un produit numérique, de la conception au lancement.",
+          "emoji": "📦",
+          "color": "#00bcd4",
+          "tags": ["Produit", "Stratégie", "Roadmap", "Priorisation"],
+          "skills": ["Agile", "Scrum", "User Stories", "Market Research", "KPIs", "A/B Testing"],
+          "salary": {"france": {"junior": "40-50k€", "senior": "60-90k€"}},
+          "resources": [
+            {"type": "book", "title": "Inspired: How to Create Tech Products Customers Love", "author": "Marty Cagan"},
+            {"type": "community", "title": "Lenny's Newsletter", "url": "https://www.lennysnewsletter.com/"}
+          ],
+          "connectedDomains": ["Business", "Marketing", "Design"]
+        },
+        {
+          "id": "technical-writing",
+          "name": "Rédaction Technique",
+          "description": "Création de documentation technique claire et précise.",
+          "emoji": "✍️",
+          "color": "#795548",
+          "tags": ["Documentation", "API Docs", "Tutoriels", "Manuals"],
+          "skills": ["Markdown", "Confluence", "MadCap Flare", "GitBook", "Swagger"],
+          "salary": {"france": {"junior": "30-40k€", "senior": "45-60k€"}},
+          "resources": [
+            {"type": "guide", "title": "Write the Docs", "url": "https://www.writethedocs.org/"}
+          ]
+        },
+        {
+          "id": "ux-ui-design",
+          "name": "UX/UI Design",
+          "description": "Conception d'expériences utilisateur intuitives et esthétiques.",
+          "emoji": "🎨",
+          "color": "#e91e63",
+          "tags": ["Design", "User Research", "Prototypage", "Accessibilité"],
+          "skills": ["Figma", "Sketch", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
+          "salary": {"france": {"junior": "35-42k€", "senior": "50-70k€"}},
+          "resources": [
+            {"type": "course", "title": "Google UX Design Certificate", "url": "https://www.coursera.org/professional-certificates/google-ux-design"}
+          ],
+          "connectedDomains": ["Design Graphique", "Psychologie", "Marketing"]
+        },
+        {
+          "id": "qsa",
+          "name": "Qualité, Sécurité, Environnement",
+          "description": "Assurance qualité, tests et conformité dans les projets IT.",
+          "emoji": "✅",
+          "color": "#ff9800",
+          "tags": ["QA", "Tests", "Certification", "Normes"],
+          "skills": ["Test Automation", "Selenium", "JUnit", "Cypress", "ISTQB", "ISO Norms"],
+          "salary": {"france": {"junior": "30-40k€", "senior": "45-60k€"}},
+          "resources": [
+            {"type": "certification", "title": "ISTQB", "url": "https://www.istqb.org/"}
+          ]
+        }
+      ]
+    }
+  ]
+}

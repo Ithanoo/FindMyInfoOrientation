@@ -1,0 +1,352 @@
+{
+  "title": "Quiz d'Orientation Informatique",
+  "description": "Découvrez quel domaine de l'informatique correspond le mieux à votre profil, vos passions et vos compétences.",
+  "note": "Ce quiz propose 3 formats différents : QCM classique, quiz visuel et évaluation par compétences. À la fin, vous obtiendrez une liste de domaines et métiers adaptés à votre profil.",
+  "formats": {
+    "classic": {
+      "name": "QCM Classique",
+      "description": "Répondez à des questions pour découvrir vos préférences et affinités.",
+      "emoji": "✅",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Quel type de travail préférez-vous ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Travailler seul sur des problèmes complexes", "score": {"development": 2, "data": 2, "cybersecurity": 1, "it-infrastructure": -1}},
+            {"id": "a2", "text": "Collaborer en équipe sur des projets concrets", "score": {"development": 1, "data": 0, "cybersecurity": 1, "it-infrastructure": 2}},
+            {"id": "a3", "text": "Créer des choses visuelles et esthétiques", "score": {"development": 1, "creative-it": 3, "data": -1, "cybersecurity": -1}},
+            {"id": "a4", "text": "Protéger des systèmes et trouver des vulnérabilités", "score": {"cybersecurity": 3, "development": -1, "creative-it": -2}}
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "Quel est votre rapport aux mathématiques ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "J'adore les maths et la résolution de problèmes abstraits", "score": {"development": 1, "data": 3, "cybersecurity": 2, "finance-it": 3}},
+            {"id": "a2", "text": "Je gère les maths de base mais je préfère le concret", "score": {"development": 2, "data": 1, "cybersecurity": 1, "it-infrastructure": 2}},
+            {"id": "a3", "text": "Je déteste les maths", "score": {"creative-it": 2, "health-it": 1, "education-it": 2, "development": -1}}
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "Quel environnement de travail préférez-vous ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Bureau classique en entreprise", "score": {"development": 1, "data": 1, "it-infrastructure": 2}},
+            {"id": "a2", "text": "Télétravail / Remote", "score": {"development": 2, "cybersecurity": 1, "creative-it": 2}},
+            {"id": "a3", "text": "Start-up dynamique et innovante", "score": {"development": 2, "data": 1, "product-management": 3}},
+            {"id": "a4", "text": "Laboratoire de recherche ou université", "score": {"data": 2, "health-it": 2, "finance-it": 1}},
+            {"id": "a5", "text": "Freelance / Indépendant", "score": {"development": 2, "creative-it": 3, "other-it": 1}}
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "Quel est votre niveau en programmation ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Débutant complet", "score": {}},
+            {"id": "a2", "text": "Intermédiaire (je connais les bases)", "score": {"development": 1, "data": 1, "cybersecurity": 1}},
+            {"id": "a3", "text": "Avancé (je maîtrise plusieurs langages)", "score": {"development": 2, "data": 2, "cybersecurity": 2, "it-infrastructure": 2}},
+            {"id": "a4", "text": "Expert (je contribute à des projets open source)", "score": {"development": 3, "data": 3, "cybersecurity": 3, "it-infrastructure": 3}}
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Quel type de projet vous attire le plus ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Créer une application mobile ou web", "score": {"development": 3, "mobile-development": 3, "web-development": 3}},
+            {"id": "a2", "text": "Analyser des données pour trouver des insights", "score": {"data": 3, "data-science": 3, "data-analyst": 3}},
+            {"id": "a3", "text": "Protéger un système contre les cyberattaques", "score": {"cybersecurity": 3, "ethical-hacking": 3, "security-architecture": 2}},
+            {"id": "a4", "text": "Concevoir une infrastructure réseau ou cloud", "score": {"it-infrastructure": 3, "cloud-computing": 3, "network-engineering": 3}},
+            {"id": "a5", "text": "Créer un jeu vidéo ou une application 3D", "score": {"creative-it": 3, "game-development": 3, "vr-ar": 2}},
+            {"id": "a6", "text": "Travailler sur des applications médicales ou scientifiques", "score": {"health-it": 3, "bioinformatics": 2, "medical-ai": 3}},
+            {"id": "a7", "text": "Développer des algorithmes de trading ou financiers", "score": {"finance-it": 3, "quantitative-finance": 3, "algorithmic-trading": 3}}
+          ]
+        },
+        {
+          "id": "q6",
+          "text": "Quelle est votre plus grande motivation ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Résoudre des problèmes techniques complexes", "score": {"development": 2, "data": 2, "cybersecurity": 2}},
+            {"id": "a2", "text": "Créer quelque chose de nouveau et innovant", "score": {"development": 2, "creative-it": 3, "product-management": 2}},
+            {"id": "a3", "text": "Aider les autres ou améliorer la société", "score": {"health-it": 3, "education-it": 3, "data": 1}},
+            {"id": "a4", "text": "Gagner un salaire élevé", "score": {"finance-it": 2, "data": 1, "cybersecurity": 1}},
+            {"id": "a5", "text": "Travailler dans un domaine passionnant et stimulant", "score": {"game-development": 2, "vr-ar": 2, "creative-it": 2}}
+          ]
+        },
+        {
+          "id": "q7",
+          "text": "Quel est votre rapport au stress ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Je gère très bien le stress et les situations urgentes", "score": {"cybersecurity": 2, "it-infrastructure": 2, "devops": 2}},
+            {"id": "a2", "text": "Je préfère un rythme de travail stable et planifié", "score": {"development": 1, "data": 1, "product-management": 1}},
+            {"id": "a3", "text": "Je suis plus créatif sous pression", "score": {"creative-it": 2, "game-development": 2}}
+          ]
+        },
+        {
+          "id": "q8",
+          "text": "Aimez-vous apprendre de nouvelles technologies ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Oui, j'adore découvrir de nouveaux outils et langages", "score": {"development": 2, "data": 2, "cybersecurity": 2, "creative-it": 2}},
+            {"id": "a2", "text": "Oui, mais je préfère maîtriser parfaitement ce que je connais", "score": {"development": 1, "it-infrastructure": 2}},
+            {"id": "a3", "text": "Non, je préfère me spécialiser dans un domaine précis", "score": {"data": 1, "health-it": 1}}
+          ]
+        },
+        {
+          "id": "q9",
+          "text": "Quel type de pensée vous correspond le mieux ?",
+          "type": "single",
+          "options": [
+            {"id": "a1", "text": "Pensée logique et analytique", "score": {"development": 2, "data": 3, "cybersecurity": 2}},
+            {"id": "a2", "text": "Pensée créative et imaginative", "score": {"creative-it": 3, "game-development": 2, "product-management": 1}},
+            {"id": "a3", "text": "Pensée stratégique et visionnaire", "score": {"product-management": 3, "data": 1, "it-infrastructure": 2}},
+            {"id": "a4", "text": "Pensée pratique et orientée solutions", "score": {"development": 2, "it-infrastructure": 3, "devops": 2}}
+          ]
+        },
+        {
+          "id": "q10",
+          "text": "Dans quel secteur aimeriez-vous travailler ?",
+          "type": "multiple",
+          "maxSelections": 3,
+          "options": [
+            {"id": "a1", "text": "Technologie / Start-ups", "score": {"development": 1, "data": 1, "cybersecurity": 1, "creative-it": 1}},
+            {"id": "a2", "text": "Santé / Médecine", "score": {"health-it": 3}},
+            {"id": "a3", "text": "Finance / Banque", "score": {"finance-it": 3}},
+            {"id": "a4", "text": "Jeux Vidéo / Entertainment", "score": {"creative-it": 3, "game-development": 3}},
+            {"id": "a5", "text": "Éducation / Formation", "score": {"education-it": 3}},
+            {"id": "a6", "text": "Administration Publique / Défense", "score": {"cybersecurity": 2, "it-infrastructure": 1}},
+            {"id": "a7", "text": "Recherche / Académique", "score": {"data": 2, "health-it": 2}},
+            {"id": "a8", "text": "Industrie / Manufacture", "score": {"it-infrastructure": 2, "embedded-systems": 2}}
+          ]
+        }
+      ]
+    },
+    "visual": {
+      "name": "Quiz Visuel",
+      "description": "Choisissez les images ou visuels qui vous parlent le plus.",
+      "emoji": "🖼️",
+      "questions": [
+        {
+          "id": "vq1",
+          "text": "Quelle image vous attire le plus ?",
+          "type": "image",
+          "options": [
+            {"id": "va1", "image": "https://via.placeholder.com/200x150/0a0a1a/6bb6ff?text=Code", "description": "Du code propre et bien structuré", "score": {"development": 3}},
+            {"id": "va2", "image": "https://via.placeholder.com/200x150/0a0a1a/ffd700?text=Data+Chart", "description": "Un graphique rempli de données", "score": {"data": 3}},
+            {"id": "va3", "image": "https://via.placeholder.com/200x150/0a0a1a/4ade80?text=Lock", "description": "Un cadenas symbolisant la sécurité", "score": {"cybersecurity": 3}},
+            {"id": "va4", "image": "https://via.placeholder.com/200x150/0a0a1a/e91e63?text=Game+Controller", "description": "Une manette de jeu vidéo", "score": {"game-development": 3, "creative-it": 2}},
+            {"id": "va5", "image": "https://via.placeholder.com/200x150/0a0a1a/ff9800?text=Cloud", "description": "Un nuage symbolisant le cloud", "score": {"cloud-computing": 3, "it-infrastructure": 2}},
+            {"id": "va6", "image": "https://via.placeholder.com/200x150/0a0a1a/a855f7?text=Brain", "description": "Un cerveau symbolisant l'IA", "score": {"artificial-intelligence": 3}}
+          ]
+        },
+        {
+          "id": "vq2",
+          "text": "Quel type de couleurs préférez-vous ?",
+          "type": "color",
+          "options": [
+            {"id": "vb1", "color": "#6bb6ff", "description": "Bleu (calme, logique)", "score": {"development": 1, "data": 2}},
+            {"id": "vb2", "color": "#4ade80", "description": "Vert (croissance, innovation)", "score": {"development": 2, "creative-it": 1}},
+            {"id": "vb3", "color": "#f44336", "description": "Rouge (passion, urgence)", "score": {"cybersecurity": 2, "game-development": 1}},
+            {"id": "vb4", "color": "#ffd700", "description": "Or (prestige, finance)", "score": {"finance-it": 2, "product-management": 1}},
+            {"id": "vb5", "color": "#a855f7", "description": "Violet (créativité, mystère)", "score": {"creative-it": 2, "artificial-intelligence": 1}},
+            {"id": "vb6", "color": "#009688", "description": "Turquoise (équilibre, santé)", "score": {"health-it": 2, "bioinformatics": 1}}
+          ]
+        },
+        {
+          "id": "vq3",
+          "text": "Quel type de motif vous attire le plus ?",
+          "type": "pattern",
+          "options": [
+            {"id": "vc1", "pattern": "lines", "description": "Lignes droites et structures claires", "score": {"development": 2, "it-infrastructure": 2}},
+            {"id": "vc2", "pattern": "network", "description": "Réseau de nœuds connectés", "score": {"data": 2, "cybersecurity": 1, "network-engineering": 2}},
+            {"id": "vc3", "pattern": "fractal", "description": "Fractales et motifs complexes", "score": {"data": 1, "artificial-intelligence": 2, "creative-it": 1}},
+            {"id": "vc4", "pattern": "pixels", "description": "Pixels et graphismes numériques", "score": {"creative-it": 3, "game-development": 2}},
+            {"id": "vc5", "pattern": "waves", "description": "Vagues et flux continus", "score": {"finance-it": 1, "education-it": 1}}
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "name": "Évaluation par Compétences",
+      "description": "Évaluez vos compétences et centres d'intérêt pour chaque domaine.",
+      "emoji": "📊",
+      "categories": [
+        {
+          "id": "programming",
+          "name": "Programmation",
+          "description": "Évaluez vos compétences en programmation.",
+          "skills": [
+            {"id": "s1", "name": "Algorithmes et structures de données", "description": "Capacité à concevoir des algorithmes efficaces et à utiliser des structures de données adaptées."},
+            {"id": "s2", "name": "Langages de programmation", "description": "Maîtrise de langages comme Python, Java, C++, JavaScript, etc."},
+            {"id": "s3", "name": "Développement web (Frontend/Backend)", "description": "Compétences en HTML/CSS, JavaScript, React, Node.js, etc."},
+            {"id": "s4", "name": "Développement mobile", "description": "Expérience avec Swift, Kotlin, React Native, Flutter, etc."},
+            {"id": "s5", "name": "Bases de données", "description": "Connaissance des bases de données SQL (MySQL, PostgreSQL) et NoSQL (MongoDB)."}
+          ]
+        },
+        {
+          "id": "math-stats",
+          "name": "Mathématiques et Statistiques",
+          "description": "Évaluez vos compétences en mathématiques et statistiques.",
+          "skills": [
+            {"id": "s6", "name": "Algèbre linéaire", "description": "Vecteurs, matrices, transformations linéaires."},
+            {"id": "s7", "name": "Calcul et analyse", "description": "Fonctions, dérivées, intégrales, équations différentielles."},
+            {"id": "s8", "name": "Probabilités et statistiques", "description": "Analyse de données, inférence statistique, tests d'hypothèses."},
+            {"id": "s9", "name": "Mathématiques discrètes", "description": "Logique, théorie des graphes, combinatoire."}
+          ]
+        },
+        {
+          "id": "systems-networks",
+          "name": "Systèmes et Réseaux",
+          "description": "Évaluez vos connaissances en systèmes et réseaux.",
+          "skills": [
+            {"id": "s10", "name": "Administration système (Linux/Windows)", "description": "Configuration et maintenance de serveurs et systèmes d'exploitation."},
+            {"id": "s11", "name": "Réseaux informatiques", "description": "TCP/IP, routage, commutateurs, pare-feu, VPN."},
+            {"id": "s12", "name": "Cloud Computing", "description": "AWS, Azure, GCP, Docker, Kubernetes, serverless."},
+            {"id": "s13", "name": "Cybersécurité", "description": "Sécurité des systèmes, cryptographie, pentest, analyse de vulnérabilités."}
+          ]
+        },
+        {
+          "id": "data-ai",
+          "name": "Data Science et IA",
+          "description": "Évaluez vos compétences en data science et intelligence artificielle.",
+          "skills": [
+            {"id": "s14", "name": "Visualisation de données", "description": "Tableau, Power BI, Matplotlib, Seaborn, D3.js."},
+            {"id": "s15", "name": "Machine Learning", "description": "Supervisé, non supervisé, deep learning, NLP, Computer Vision."},
+            {"id": "s16", "name": "Traitement des données", "description": "Nettoyage, transformation, ETL, Pandas, NumPy."},
+            {"id": "s17", "name": "Big Data", "description": "Hadoop, Spark, Kafka, bases de données distribuées."}
+          ]
+        },
+        {
+          "id": "creative",
+          "name": "Créativité et Design",
+          "description": "Évaluez vos compétences créatives.",
+          "skills": [
+            {"id": "s18", "name": "Design graphique et UI/UX", "description": "Figma, Adobe XD, Photoshop, principes de design."},
+            {"id": "s19", "name": "Modélisation 3D", "description": "Blender, Maya, 3ds Max, texturing, animation."},
+            {"id": "s20", "name": "Développement de jeux vidéo", "description": "Unity, Unreal Engine, Godot, Game Design."},
+            {"id": "s21", "name": "Créativité algorithmique", "description": "Generative Art, Creative Coding, Processing, p5.js."}
+          ]
+        },
+        {
+          "id": "business-management",
+          "name": "Business et Gestion de Projet",
+          "description": "Évaluez vos compétences en gestion et business.",
+          "skills": [
+            {"id": "s22", "name": "Gestion de projet", "description": "Agile, Scrum, Kanban, Jira, Trello."},
+            {"id": "s23", "name": "Product Management", "description": "Roadmaps, priorisation, MVP, KPIs."},
+            {"id": "s24", "name": "Connaissance du business", "description": "Compréhension des enjeux business, ROI, marché."},
+            {"id": "s25", "name": "Communication et leadership", "description": "Prise de parole, gestion d'équipe, résolution de conflits."}
+          ]
+        },
+        {
+          "id": "domain-knowledge",
+          "name": "Connaissances Domaines Spécifiques",
+          "description": "Évaluez vos connaissances dans des domaines spécifiques.",
+          "skills": [
+            {"id": "s26", "name": "Santé / Médecine", "description": "Connaissance du domaine médical, biologie, anatomie."},
+            {"id": "s27", "name": "Finance / Économie", "description": "Marchés financiers, trading, risque, économie."},
+            {"id": "s28", "name": "Éducation / Pédagogie", "description": "Méthodes d'enseignement, pédagogie, andragogie."},
+            {"id": "s29", "name": "Droit / Réglementation", "description": "RGPD, droit du numérique, conformité."}
+          ]
+        }
+      ],
+      "evaluationScale": {
+        "0": "Aucune compétence",
+        "1": "Débutant",
+        "2": "Intermédiaire",
+        "3": "Avancé",
+        "4": "Expert"
+      }
+    }
+  },
+  "results": {
+    "mapping": {
+      "development": {
+        "name": "Développement Logiciel",
+        "recommendedCareers": [
+          "frontend", "backend", "fullstack", "mobile-developer", "game-developer", "embedded-systems"
+        ],
+        "recommendedSkills": ["Programmation", "Algorithmes", "Architecture logicielle"],
+        "description": "Vous avez un profil de développeur. Vous aimez créer des logiciels, applications ou jeux vidéo. Explorez les différentes branches du développement pour trouver votre spécialité."
+      },
+      "data": {
+        "name": "Data Science & Intelligence Artificielle",
+        "recommendedCareers": [
+          "data-science", "data-engineering", "artificial-intelligence", "data-analyst", "machine-learning-engineer"
+        ],
+        "recommendedSkills": ["Python", "R", "SQL", "Machine Learning", "Statistiques"],
+        "description": "Vous avez un profil analytique et aimez travailler avec les données. La data science et l'IA sont faites pour vous. Explorez les spécialités comme le machine learning ou le data engineering."
+      },
+      "cybersecurity": {
+        "name": "Cybersécurité",
+        "recommendedCareers": [
+          "ethical-hacking", "security-architecture", "soc-analyst", "cryptography"
+        ],
+        "recommendedSkills": ["Pentest", "Sécurité des systèmes", "Cryptographie", "Réseaux"],
+        "description": "Vous avez un profil orienté sécurité et aimez relever des défis. La cybersécurité est un domaine en forte croissance avec de nombreuses opportunités."
+      },
+      "it-infrastructure": {
+        "name": "Infrastructure IT & Réseaux",
+        "recommendedCareers": [
+          "system-administration", "network-engineering", "cloud-computing", "devops"
+        ],
+        "recommendedSkills": ["Linux", "Réseaux", "Cloud", "Administration système"],
+        "description": "Vous avez un profil technique et aimez travailler avec les infrastructures. L'administration système, les réseaux ou le cloud pourraient vous intéresser."
+      },
+      "health-it": {
+        "name": "Informatique & Santé",
+        "recommendedCareers": [
+          "medical-software", "medical-imaging", "bioinformatics", "telemedicine", "medical-ai"
+        ],
+        "recommendedSkills": ["DICOM", "HL7", "Python", "R", "Machine Learning"],
+        "description": "Vous avez un intérêt pour la santé et la médecine. L'informatique médicale offre de nombreuses opportunités pour allier technologie et soins."
+      },
+      "finance-it": {
+        "name": "Informatique & Finance",
+        "recommendedCareers": [
+          "quantitative-finance", "fintech", "blockchain", "algorithmic-trading"
+        ],
+        "recommendedSkills": ["Python", "C++", "R", "Finance", "Mathématiques"],
+        "description": "Vous avez un profil analytique et un intérêt pour la finance. La finance quantitative, la fintech ou la blockchain pourraient vous intéresser."
+      },
+      "creative-it": {
+        "name": "Informatique Créative",
+        "recommendedCareers": [
+          "digital-art", "generative-art", "music-technology", "game-art", "vr-ar"
+        ],
+        "recommendedSkills": ["Blender", "Adobe Creative Suite", "Unity", "Processing", "Creative Coding"],
+        "description": "Vous avez un profil créatif et aimez allier art et technologie. L'informatique créative offre de nombreuses possibilités dans les jeux vidéo, l'animation, le design et plus."
+      },
+      "product-management": {
+        "name": "Product Management",
+        "recommendedCareers": [
+          "product-management", "ux-ui-design", "technical-writing"
+        ],
+        "recommendedSkills": ["Gestion de produit", "UX/UI", "Business", "Communication"],
+        "description": "Vous avez un profil orienté business et aimez gérer des projets. Le product management ou le design pourraient vous intéresser."
+      },
+      "education-it": {
+        "name": "Informatique & Éducation",
+        "recommendedCareers": [
+          "e-learning", "edtech", "instructional-design"
+        ],
+        "recommendedSkills": ["Pédagogie", "E-learning", "Instructional Design", "LMS"],
+        "description": "Vous avez un intérêt pour l'éducation et la formation. L'EdTech est un domaine en plein essor qui allie technologie et pédagogie."
+      },
+      "game-development": {
+        "name": "Développement de Jeux Vidéo",
+        "recommendedCareers": [
+          "game-development", "game-designer", "3d-artist"
+        ],
+        "recommendedSkills": ["Unity", "Unreal Engine", "C#", "C++", "Game Design"],
+        "description": "Vous êtes passionné par les jeux vidéo. Le développement de jeux offre de nombreuses spécialités : programmation, design, art, etc."
+      }
+    }
+  }
+}

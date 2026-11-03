@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=MedievalSharp&display=swap');
+
+/* Custom Skyrim-inspired styles */
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-primary-900 text-text-primary font-sans overflow-x-hidden;
+    background-image: 
+      radial-gradient(ellipse at 20% 20%, rgba(107, 182, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(255, 215, 0, 0.1) 0%, transparent 50%);
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1a1a2e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #6bb6ff;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a855f7;
+  }
+}
+
+@layer components {
+  /* Skyrim-style button */
+  .btn-skyrim {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 
+           border border-accent-ice/30 bg-accent-ice/10 text-accent-ice
+           hover:bg-accent-ice/20 hover:border-accent-ice/50 hover:shadow-lg hover:shadow-accent-ice/20
+           active:scale-95 active:bg-accent-ice/30;
+  }
+  
+  .btn-skyrim-gold {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 
+           border border-accent-gold/30 bg-accent-gold/10 text-accent-gold
+           hover:bg-accent-gold/20 hover:border-accent-gold/50 hover:shadow-lg hover:shadow-accent-gold/20
+           active:scale-95 active:bg-accent-gold/30;
+  }
+  
+  /* Node card style */
+  .node-card {
+    @apply bg-primary-800/80 backdrop-blur-sm rounded-xl border border-primary-700/50
+           p-4 shadow-lg shadow-black/30 transition-all duration-300
+           hover:border-accent-ice/30 hover:shadow-accent-ice/10;
+  }
+  
+  .node-card-gold {
+    @apply bg-primary-800/80 backdrop-blur-sm rounded-xl border border-accent-gold/30
+           p-4 shadow-lg shadow-accent-gold/20 transition-all duration-300
+           hover:border-accent-gold/50 hover:shadow-accent-gold/30;
+  }
+  
+  /* Tree link style */
+  .tree-link {
+    @apply stroke-primary-700/30 transition-all duration-500
+           hover:stroke-accent-ice/50;
+  }
+  
+  /* Selected node highlight */
+  .node-selected {
+    @apply border-accent-gold shadow-accent-gold/50;
+  }
+  
+  /* Quiz card */
+  .quiz-card {
+    @apply bg-primary-800/60 backdrop-blur-md rounded-2xl border border-primary-700/30
+           p-6 transition-all duration-300 hover:border-accent-ice/30;
+  }
+  
+  /* Glow effect for important elements */
+  .glow-ice {
+    box-shadow: 0 0 10px rgba(107, 182, 255, 0.3), 0 0 20px rgba(107, 182, 255, 0.2);
+  }
+  
+  .glow-gold {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3), 0 0 20px rgba(255, 215, 0, 0.2);
+  }
+  
+  /* Text with Skyrim feel */
+  .text-skyrim {
+    text-shadow: 0 0 5px rgba(107, 182, 255, 0.5);
+  }
+  
+  .text-skyrim-gold {
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Text gradient */
+  .text-gradient-ice {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-ice to-accent-purple;
+  }
+  
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-gold to-accent-emerald;
+  }
+}
+
+/* Animation for tree nodes */
+@keyframes nodePulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+}
+
+.node-pulse {
+  animation: nodePulse 2s ease-in-out infinite;
+}
+
+/* Custom styles for D3 tree */
+.tree-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tree-svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .node-card {
+    @apply p-3 text-sm;
+  }
+  
+  .btn-skyrim {
+    @apply px-4 py-2 text-sm;
+  }
+}
